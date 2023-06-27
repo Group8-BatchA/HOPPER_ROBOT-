@@ -1,0 +1,4 @@
+source;share/hopper_description/local_setup.bash
+source;share/hopper_description/local_setup.dsv
+source;share/hopper_description/local_setup.sh
+source;share/hopper_description/local_setup.zsh

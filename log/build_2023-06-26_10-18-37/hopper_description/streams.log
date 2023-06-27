@@ -1,0 +1,40 @@
+[0.052s] Invoking command in '/home/kartik/Desktop/freelance/r2_hopper_ws/build/hopper_description': CMAKE_PREFIX_PATH=/home/kartik/Desktop/freelance/r2_hopper_ws/install/hopper_description:/opt/ros/galactic:/home/kartik/Desktop/freelance/hopper_ws/devel:/opt/ros/noetic /usr/bin/cmake /home/kartik/Desktop/freelance/r2_hopper_ws/src/hopper_description -DCMAKE_INSTALL_PREFIX=/home/kartik/Desktop/freelance/r2_hopper_ws/install/hopper_description
+[0.204s] -- The C compiler identification is GNU 9.4.0
+[0.319s] -- The CXX compiler identification is GNU 9.4.0
+[0.331s] -- Check for working C compiler: /usr/lib/ccache/cc
+[0.452s] -- Check for working C compiler: /usr/lib/ccache/cc -- works
+[0.454s] -- Detecting C compiler ABI info
+[0.573s] -- Detecting C compiler ABI info - done
+[0.597s] -- Detecting C compile features
+[0.598s] -- Detecting C compile features - done
+[0.602s] -- Check for working CXX compiler: /usr/lib/ccache/c++
+[0.742s] -- Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+[0.745s] -- Detecting CXX compiler ABI info
+[0.872s] -- Detecting CXX compiler ABI info - done
+[0.897s] -- Detecting CXX compile features
+[0.898s] -- Detecting CXX compile features - done
+[0.903s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.955s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.956s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.122s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.270s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.272s] -- Added test 'lint_cmake' to check CMake code style
+[1.273s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.276s] -- Added test 'xmllint' to check XML markup files
+[1.280s] -- Configuring done
+[1.283s] -- Generating done
+[1.285s] -- Build files have been written to: /home/kartik/Desktop/freelance/r2_hopper_ws/build/hopper_description
+[1.292s] Invoked command in '/home/kartik/Desktop/freelance/r2_hopper_ws/build/hopper_description' returned '0': CMAKE_PREFIX_PATH=/home/kartik/Desktop/freelance/r2_hopper_ws/install/hopper_description:/opt/ros/galactic:/home/kartik/Desktop/freelance/hopper_ws/devel:/opt/ros/noetic /usr/bin/cmake /home/kartik/Desktop/freelance/r2_hopper_ws/src/hopper_description -DCMAKE_INSTALL_PREFIX=/home/kartik/Desktop/freelance/r2_hopper_ws/install/hopper_description
+[1.299s] Invoking command in '/home/kartik/Desktop/freelance/r2_hopper_ws/build/hopper_description': CMAKE_PREFIX_PATH=/home/kartik/Desktop/freelance/r2_hopper_ws/install/hopper_description:/opt/ros/galactic:/home/kartik/Desktop/freelance/hopper_ws/devel:/opt/ros/noetic /usr/bin/cmake --build /home/kartik/Desktop/freelance/r2_hopper_ws/build/hopper_description -- -j8 -l8
+[1.392s] Invoked command in '/home/kartik/Desktop/freelance/r2_hopper_ws/build/hopper_description' returned '0': CMAKE_PREFIX_PATH=/home/kartik/Desktop/freelance/r2_hopper_ws/install/hopper_description:/opt/ros/galactic:/home/kartik/Desktop/freelance/hopper_ws/devel:/opt/ros/noetic /usr/bin/cmake --build /home/kartik/Desktop/freelance/r2_hopper_ws/build/hopper_description -- -j8 -l8
+[1.469s] Invoking command in '/home/kartik/Desktop/freelance/r2_hopper_ws/build/hopper_description': CMAKE_PREFIX_PATH=/home/kartik/Desktop/freelance/r2_hopper_ws/install/hopper_description:/opt/ros/galactic:/home/kartik/Desktop/freelance/hopper_ws/devel:/opt/ros/noetic /usr/bin/cmake --install /home/kartik/Desktop/freelance/r2_hopper_ws/build/hopper_description
+[1.495s] -- Install configuration: ""
+[1.496s] -- Installing: /home/kartik/Desktop/freelance/r2_hopper_ws/install/hopper_description/share/hopper_description/config
+[1.496s] -- Installing: /home/kartik/Desktop/freelance/r2_hopper_ws/install/hopper_description/share/hopper_description/config/monoped.yaml
+[1.496s] CMake Error at cmake_install.cmake:45 (file):
+[1.496s]   file INSTALL cannot find
+[1.497s]   "/home/kartik/Desktop/freelance/r2_hopper_ws/src/hopper_description/include":
+[1.497s]   No such file or directory.
+[1.498s] 
+[1.499s] 
+[1.500s] Invoked command in '/home/kartik/Desktop/freelance/r2_hopper_ws/build/hopper_description' returned '1': CMAKE_PREFIX_PATH=/home/kartik/Desktop/freelance/r2_hopper_ws/install/hopper_description:/opt/ros/galactic:/home/kartik/Desktop/freelance/hopper_ws/devel:/opt/ros/noetic /usr/bin/cmake --install /home/kartik/Desktop/freelance/r2_hopper_ws/build/hopper_description
